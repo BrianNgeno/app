@@ -24,6 +24,8 @@ Things you may want to cover:
 * ...
 
 
-##New Changes
-*change a
-*change b
+## New Changes
+```
+* change a
+* change b
+```

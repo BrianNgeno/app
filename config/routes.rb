@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   # custom route
   # get "/" , to: "rails#index"
   # get "/user/:id", to: "rails#show"
-  resources :users, only:[:index, :show, :destroy , :create, :update , :authorize]
+
+  resources :users, only:[:index, :show, :destroy , :create, :update , :authorize, :list]
+
 end
